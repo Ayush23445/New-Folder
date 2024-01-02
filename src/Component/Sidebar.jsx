@@ -1,29 +1,37 @@
 import React from 'react';
-import logo from '../Images/logo.webp'
+import logo from '../Images/logo.webp';
+import { FaUserPlus } from "react-icons/fa";
+import { AiFillDashboard } from "react-icons/ai";
+
+
 
 
 const Sidebar = () => {
   return (
-    <div className="bg-pink-200 text-black h-screen w-[16%] ">
+    <div className="boder text-black h-screen w-[16%] flex-nowrap shadow">
       <img src={logo} alt="" />
       
-      <ul>
-        <li className="mb-2  hover:text-gray-300">
+      <ul className='px-0 py-2.5'>
+        <li className="pl-8 py-2 mb-4 items-center text-neutral-700 text-xs hover:bg-purple-200 hover:rounded-ee-3xl cursor-pointer">
           
-            Main Menu
-          
-        </li>
-        <li className="mb-2 hover:bg-fuchsia-300 hover:border-r-2">
-          
-            Dashboard
+            MAIN MENU
           
         </li>
-        <li className="mb-2 hover:text-gray-300">
-        
-            User
+        <li className="mb-4 py-2 pl-8 items-center hover:text-fuchsia-900 hover:bg-purple-200 hover:rounded-ee-3xl flex cursor-pointer">
+        <i ><AiFillDashboard /> </i>&nbsp;
+            <a > 
+               <span>Dashboard</span>
+            </a>
+            
           
         </li>
-        {/* Add more links as needed */}
+        <li className="mb-4-2 py-2 pl-8 items-center hover:bg-purple-200 hover:rounded-ee-3xl flex  hover:text-fuchsia-900 cursor-pointer">
+        <i ><FaUserPlus /> </i>&nbsp;
+            <a > 
+               <span>Users</span>
+            </a>
+        </li>
+       
       </ul>
     </div>
   );
