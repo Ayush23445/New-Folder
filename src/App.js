@@ -3,14 +3,20 @@ import './App.css';
 import React from 'react';
 import Navbar from './Component/Navbar';
 import Sidebar from './Component/Sidebar';
+import UserWidget from './Component/UserWidget';
+import UserCollection from './Component/UserCollection';
+import RoughWorh from './Component/roughWorh';
 
 function App() {
   return (
-    <div className="App  " >
-      <div className="">
+    <div className="App" >
+      {/* <div className="x"> */}
         {/* <Sidebar/> */}
-        <Navbar/>
-      </div>
+        {/* <Navbar/> */}
+        <UserWidget/>
+        {/* <UserCollection/> */}
+      {/* </div> */}
+      {/* <RoughWorh/> */}
       
     </div>
   );
