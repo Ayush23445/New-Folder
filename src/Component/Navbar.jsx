@@ -4,7 +4,7 @@ import p1 from '../Images/p1.jpeg'
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-200 p-4 flex justify-between items-center">
+    <nav className="bg-white p-4 flex justify-between items-center">
     
      {/* menu logo */}
       <div className="text-purple-800 text-xl font-bold ">

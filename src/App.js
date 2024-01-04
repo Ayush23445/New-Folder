@@ -6,18 +6,21 @@ import Sidebar from './Component/Sidebar';
 import UserWidget from './Component/UserWidget';
 import UserCollection from './Component/UserCollection';
 import RoughWorh from './Component/roughWorh';
+import Pagination  from './Component/Pagination';
+import Main from './Component/Main';
 
 function App() {
   return (
-    <div className="App" >
+    <div className="flex container " >
       {/* <div className="x"> */}
-        {/* <Sidebar/> */}
+        <Sidebar />
         {/* <Navbar/> */}
-        <UserWidget/>
+        {/* <UserWidget/> */}
         {/* <UserCollection/> */}
       {/* </div> */}
       {/* <RoughWorh/> */}
-      
+      {/* <Pagination/> */}
+      <Main />
     </div>
   );
 }

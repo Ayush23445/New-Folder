@@ -8,7 +8,7 @@ import { AiFillDashboard } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
-    <div className="boder text-black h-screen w-[16%] flex-nowrap shadow">
+    <div className="border text-black h-screen w-[16%] flex-nowrap shadow h-auto">
       <img src={logo} alt="" />
 
       <ul className='px-0 py-2.5'>
@@ -19,7 +19,7 @@ const Sidebar = () => {
         </li>
         <li className="mb-4 py-2 pl-8 items-center hover:text-fuchsia-900 hover:bg-purple-200 hover:rounded-ee-3xl flex cursor-pointer">
           <i ><AiFillDashboard /> </i>&nbsp;
-          <a >'../Images/p1.jpeg'
+          <a >
             <span>Dashboard</span>
           </a>
 
