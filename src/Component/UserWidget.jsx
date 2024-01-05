@@ -31,7 +31,7 @@ const UserWidget = () => {
                         <IoMdAdd className="text-white" />&nbsp; ADD</button>
                 </div>
             </div>
-            <UserCollection className="ml-0"/>
+            <UserCollection className="ml-0" />
         </div>
     )
 };
