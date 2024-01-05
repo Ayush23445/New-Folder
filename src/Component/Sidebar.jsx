@@ -8,8 +8,8 @@ import { AiFillDashboard } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
-    <div className='hidden md:flex'>
-      <div className="border text-black h-screen w-[16%] flex-nowrap shadow h-auto">
+    //  <div className='hidden md:flex'>
+      <div className="hidden md:flex flex-col border text-black w-[16%] flex-nowrap shadow h-auto">
         <img src={logo} alt="" />
 
         <ul className='px-0 py-2.5'>
@@ -34,7 +34,7 @@ const Sidebar = () => {
 
         </ul>
       </div>
-    </div>
+    //  </div>
   );
 };
 
