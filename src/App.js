@@ -11,7 +11,7 @@ import Main from './Component/Main';
 
 function App() {
   return (
-    <div className="flex container " >
+    <div className="flex container w-auto" >
 
       <Sidebar />
 

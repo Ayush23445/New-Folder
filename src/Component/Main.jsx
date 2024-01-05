@@ -4,7 +4,7 @@ import UserWidget from './UserWidget'
 
 const Main = () => {
   return (
-    <div className=' container flex flex-col'>
+    <div className=' container flex flex-col w-auto'>
       <Navbar/>
       <UserWidget/>
 

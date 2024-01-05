@@ -36,14 +36,14 @@ const UserCollection = () => {
             <div className="mb-4 flex justify-between items-center">
                 <div className='flex rounded-lg'>
                     <div className='bg-gray-200 mr-2 px-2 rounded border flex items-center text-purple-800'>
-                        <div className='py-2 md:flex'>
+                        <div className=''>
                             <FaSortAmountUpAlt />
                         </div>
-                        <div className='hidden md:flex py-2'>
+                        <div className='hidden md:flex '>
                             <select
                                 value={sortBy}
                                 onChange={(e) => setSortBy(e.target.value)}
-                                className="p-2 px-0 bg-gray-200 outline-none text-black bg-gray-200"
+                                className="p-2 px-0 outline-none text-black bg-gray-200"
                             >
                                 <option value="">
 
