@@ -8,14 +8,16 @@ import UserCollection from './Component/UserCollection';
 import RoughWorh from './Component/roughWorh';
 import Pagination from './Component/Pagination';
 import Main from './Component/Main';
+import LoginForm from './Component/LoginForm';
 
 function App() {
   return (
-    <div className="flex container w-auto" >
+    <div /*className="flex container w-auto" */>
 
-      <Sidebar />
+      {/* <Sidebar />
 
-      <Main />
+      <Main /> */}
+      <LoginForm/>
     </div>
   );
 }
